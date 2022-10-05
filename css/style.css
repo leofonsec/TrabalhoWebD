@@ -1,0 +1,34 @@
+body {
+    background-size: 1950px;
+    background-image: url('../image/bg-01.jpg');
+}
+
+div.Login-Estrutura {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 700px;
+    margin-top: 200px;
+    margin-right: 700px;
+    flex-wrap: wrap;
+}
+
+div.Email {
+    text-align: left;
+    margin-left: 40px;
+}
+
+div.Login {
+    text-align: center;
+}
+
+div.SingUp {
+    text-align: center;
+}
+
+img.Icone {
+    width: 24%;
+    border: 1px solid none;
+    border-radius: 150%;
+}
