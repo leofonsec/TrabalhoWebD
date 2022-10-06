@@ -1,6 +1,12 @@
-body {
-    background-size: 1950px;
-    background-image: url('../image/bg-01.jpg');
+
+
+header{
+    padding: 2%;
+    border: 1px solid none;
+    background-color: green;
+    flex-wrap: wrap;
+    text-align: center;
+    box-shadow: 5px 2px 1px #595958;
 }
 
 div.Login-Estrutura {
@@ -8,27 +14,63 @@ div.Login-Estrutura {
     border-radius: 10px;
     border: 1px solid black;
     text-align: center;
-    margin-left: 700px;
-    margin-top: 200px;
-    margin-right: 700px;
+    margin-left: 20%;
+    margin-top: 8%;
+    margin-right: 20%;
     flex-wrap: wrap;
 }
 
-div.Email {
-    text-align: left;
-    margin-left: 40px;
-}
-
-div.Login {
-    text-align: center;
-}
-
-div.SingUp {
-    text-align: center;
-}
-
 img.Icone {
-    width: 24%;
+    width: 10%;
     border: 1px solid none;
     border-radius: 150%;
+}
+
+button{
+    cursor: pointer;
+    display: inline-block;
+    flex-wrap: wrap;
+    padding: 1%;
+    margin: 0.5%;
+    border-radius: 30px;
+    background-color: aliceblue;
+    transition-duration: 0.2s;
+    font-weight: bolder;
+}
+.button{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #3fb136;
+}
+.button:hover {
+    background-color: #3fb136;
+    color: white;
+}
+
+input.teste{
+    font-weight: bolder;
+    border-radius: 20%;
+    cursor: pointer;
+    display: inline-block;
+    flex-wrap: wrap;
+    padding: 1%;
+    margin: 0.5%;
+    transition-duration: 0.2s;
+}
+.teste{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #ca0202;
+}
+.teste:hover {
+    background-color: #ca0202;
+    color: white;
+}
+
+label.texto{
+    text-align: right;
+}
+input.caixa{
+    border-radius: 10%;
+    border: 1px solid black;
 }
