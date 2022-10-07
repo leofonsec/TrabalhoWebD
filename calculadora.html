@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <link rel="stylesheet" href="./css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/teste.js"></script>
     <title>Calculadora</title>
 </head>
 <body>
@@ -13,7 +14,18 @@
         <a href="./calculadora.html"><button class="button">Calculadora</button></a>
     </header>
     <main>
-        <h1>SEWIE!</h1>
+        <h1 class="cabecalho" id="teste" onclick="teste()" onmouseover="voltar()">Calculadora</h1>
+        <div class="calculadora">
+            <input type="number" id="num1"><br>
+            <input type="number" id="num2"><br>
+            <button onclick="soma()">Somar</button>
+            <button onclick="subtracao()">Subtrair</button>
+            <button onclick="multiplicacao()">Multiplicar</button><br>
+            <button onclick="divisao()">Dividir</button>
+            <button onclick="modulo()">Módulo(resto)</button>
+            <button onclick="potencia()">Potência</button>
+            <p id="resultado"></p><br>
+        </div>
     </main>
 </body>
 </html>
