@@ -1,6 +1,4 @@
-
-
-header{
+header {
     padding: 2%;
     border: 1px solid none;
     background-color: green;
@@ -26,27 +24,29 @@ img.Icone {
     border-radius: 150%;
 }
 
-button{
+button {
     cursor: pointer;
     display: inline-block;
     flex-wrap: wrap;
     transition-duration: 0.2s;
     font-weight: bolder;
 }
-.button{
+
+.button {
     padding: 1%;
     margin: 0.5%;
     border-radius: 30px;
-    background-color: white; 
-    color: black; 
+    background-color: white;
+    color: black;
     border: 2px solid #3fb136;
 }
+
 .button:hover {
     background-color: #3fb136;
     color: white;
 }
 
-input.teste{
+input.teste {
     font-weight: bolder;
     border-radius: 20%;
     cursor: pointer;
@@ -56,29 +56,76 @@ input.teste{
     margin: 0.5%;
     transition-duration: 0.2s;
 }
-.teste{
-    background-color: white; 
-    color: black; 
+
+.teste {
+    background-color: white;
+    color: black;
     border: 2px solid #ca0202;
 }
+
 .teste:hover {
     background-color: #ca0202;
     color: white;
 }
 
-label.texto{
+label.texto {
     text-align: right;
 }
-input.caixa{
+
+input.caixa {
     border-radius: 10%;
     border: 1px solid black;
 }
 
-h1.cabecalho{
+h1.cabecalho {
     text-align: center;
 }
 
-div.calculadora{
-    align-content: center;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fundo {
+    background-image: linear-gradient(45deg, rgb(190, 92, 79), rgb(79, 42, 165));
+    height: 100vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+}
+
+.calculadora {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    padding: 15px;
+}
+
+.botao {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: white;
+}
+
+.botao:hover {
+    background-color: black;
+}
+
+#resultado {
+    width: 207px;
+    background-color: white;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
 }
