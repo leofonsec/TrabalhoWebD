@@ -2,3 +2,8 @@ body {
     background-size: 1950px;
     background-image: url('../image/bg-01.jpg');
 }
+
+input.caixa {
+    border-radius: 10%;
+    border: 1px solid black;
+}

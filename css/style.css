@@ -72,11 +72,6 @@ label.texto {
     text-align: right;
 }
 
-input.caixa {
-    border-radius: 10%;
-    border: 1px solid black;
-}
-
 h1.cabecalho {
     text-align: center;
 }
