@@ -13,15 +13,15 @@
 
 <body>
     <header>
-        <div class="container-fluid mb-5 text-bg-secondary">
+        <div class="container-fluid text-bg-secondary">
             <br>
             <h1 class="text-center">Site de contabilidade de cria</h1>
             <ul class="nav nav-pills justify-content-center">
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Site</a>
+                    <a class="nav-link text-white" href="#sobre">Sobre</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Dale</a>
+                    <a class="nav-link text-white" href="#howto">Como funciona?</a>
                 </li>
                 <li class="nav-item">
                     <button type="button" class="nav-link btn btn-primary text-white" data-bs-toggle="modal" data-bs-target="#modalDemo1">Login</button>
@@ -52,19 +52,21 @@
         </div>
     </header>
     <main>
-        <section>
-            <p>Texto explicativo sobre o site</p>
-        </section>
-        <section>
-            <div class="Login-Estrutura">
-                <a href="./dashboard.html">Teste</a>
+        <div class="container-fluid my-0 text-bg-dark">
+            <br><br>
+            <div class="container my-1">
+                <h2 id="#sobre">Sobre</h2>
+                <p>Texto explicativo sobre o que voce pode fazr com o site. Aqui seria interessante adicionar informações sobre o site.</p>
             </div>
-        </section>
-        <section>
-            <p>Texto explicativo sobre o site</p>
-        </section>
-    </main>
-    
+            <div class="container my-1">
+                <h2 id="#howto">Como funciona o site?</h2>
+                <p>Texto explicativo sobre o como voce usa o site. Aqui seria interessante adicionar informações sobre o site.</p>
+            </div>
+        </div>
+        <div>
+            <a class="btn btn-dark" href="/dashboard.html">Teste</a>
+        </div>
+    </main>    
 </body>
 
 </html>
