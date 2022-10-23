@@ -145,3 +145,37 @@ button {
     <input type="text" id="password" name="password" class="caixa"><br><br>
     <input type="submit" value="Login" class="teste">
 </form>
+
+<ul class="navbar-nav justify-content-center">
+    <li class="nav-item">
+        <a class="nav-link text-white fonte" href="#sobre">Sobre</a>
+    </li>
+    <li class="nav-item">
+                    <a class="nav-link text-white" href="#howto">Como funciona?</a>
+    </li>
+    <li class="nav-item">
+        <button type="button" class="nav-link btn btn-primary text-white" data-bs-toggle="modal" data-bs-target="#modalDemo1">Login</button>
+        <div class="modal" id="modalDemo1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title text-dark">Bem vindo!</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="">
+                            <label for="login" class="text-dark">Login:</label><br>
+                            <input type="text" id="login" name="login" class="caixa"><br>
+                            <label for="password" class="text-dark">Senha:</label><br>
+                            <input type="text" id="password" name="password" class="caixa"><br><br>
+                            <input type="submit" value="Login" class="teste">
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+</ul>
