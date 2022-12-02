@@ -1,0 +1,84 @@
+aside{
+    width: 320px;
+    border-radius: 8px;
+    background: #fff;
+    position: static;
+    margin-bottom: 20px;
+    padding: 30px 20px;
+    box-shadow: 1px 1px 14px 1px rgba(0, 0, 0, 0.2);
+}
+
+.center{
+    text-align: center;
+    display: block;
+}
+
+h1{
+    margin: 20px;
+}
+
+aside strong{
+    margin-top: 4px;
+    margin-bottom: 7px;
+}
+
+.description{
+    width: 100%;
+    height: 120px;
+    border: 1px solid #CED4DA;
+    border-radius: 8px;
+    resize: none;
+}
+
+#novobloco{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 60px 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+#painel{
+    flex: 1;
+}
+
+#painel ul{
+    list-style: none;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+li.display div{
+    display: flex;
+    justify-content: space-between;
+}
+
+li.display div div{
+    cursor: pointer;
+}
+
+li.display div div:hover{
+    cursor: pointer;
+    transition: 0.2s;
+    color: rgb(47, 173, 45);
+}
+
+li.display{
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px 20px 10px 20px;
+    box-shadow: 1px 1px 14px 1px rgba(0, 0, 0, 0.2);
+}
+
+.description-output{
+    padding: 7px;
+    margin-top: 6px;
+    margin-bottom: 4px;
+    width: 100%;
+    height: 120px;
+    border: 0;
+    background: #fff;
+    resize: none;
+}
